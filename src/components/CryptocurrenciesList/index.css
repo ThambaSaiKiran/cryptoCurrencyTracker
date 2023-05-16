@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.itemsList {
+  display: flex;
+  flex-direction: column;
+  border-color: #00e7ff;
+}
+
+.headItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: #092e33;
+}
+
+.headLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.currencyItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  height: 30%;
+  width: 80%;
+  margin-left: 60px;
+}
+.usd {
+  margin-right: 70px;
+}

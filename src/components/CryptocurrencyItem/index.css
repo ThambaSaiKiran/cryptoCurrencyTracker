@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.currencyItem {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.itemStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.itemLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.currencyLogo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.usd {
+  margin-right: 40px;
+}
